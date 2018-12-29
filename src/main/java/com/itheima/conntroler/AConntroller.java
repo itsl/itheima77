@@ -1,10 +1,12 @@
 package com.itheima.conntroler;
 
 public class AConntroller {
-    public void s() {
+    public static void main(String[] args) {
+        s();
+    }
+
+    public static void s() {
         System.out.println("s");
     }
-    public static void main(String[] args) {
 
-    }
 }
